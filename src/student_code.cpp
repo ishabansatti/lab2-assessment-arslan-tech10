@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std
-int main{
+
 int getIntValue() {
     int var_int = 10;
     return var_int;
@@ -28,7 +28,8 @@ Formula:
     Celsius = (Fahrenheit - 32) * 5 / 9
 */
 float fahrenheitToCelsius(float fahrenheit) {
-    float celsius = (fahrenheit - 32) * 5.0 / 9.0;
+    float celsius;
+    celcius = (fahrenheit - 32) * 5.0 / 9.0;
     return celsius;
 }
 }
