@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+int main{
 int getIntValue() {
     int var_int = 10;
     return var_int;
@@ -18,7 +18,7 @@ char getCharValue() {
 
 int convertFloatToInt(float value) {
     // Explicit type casting
-    return static_cast<int>(value);
+    return (int) value;
 }
 
 /*
@@ -31,13 +31,4 @@ float fahrenheitToCelsius(float fahrenheit) {
     float celsius = (fahrenheit - 32) * 5.0 / 9.0;
     return celsius;
 }
-
-int main() {
-    cout << "Integer Value: " << getIntValue() << endl;
-    cout << "Float Value: " << getFloatValue() << endl;
-    cout << "Char Value: " << getCharValue() << endl;
-    cout << "Convert 10.75 to int: " << convertFloatToInt(10.75) << endl;
-    cout << "100 Fahrenheit in Celsius: " << fahrenheitToCelsius(100) << endl;
-
-    return 0;
 }
