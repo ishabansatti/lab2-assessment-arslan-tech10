@@ -7,7 +7,9 @@ int getIntValue() {
     return var_int;
 }
 
-float getFloatValue() {
+float getFloatValue()
+float x=10.75
+{
     // Declare a variable var_float of type float and set its value to 10.75.
     //return var_float;
 }
